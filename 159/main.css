@@ -32,8 +32,8 @@
 	height: 100px;
 	background-color: #d86f45;
 	position: absolute;
-	top: 50px;
-	left: -50%;
+	top: 50%;
+	left: 450px;
 	translate: -50% -50%;
 }
 .small_cube_3 {
