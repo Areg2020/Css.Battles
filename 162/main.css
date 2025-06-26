@@ -1,0 +1,31 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 100%;
+	aspect-ratio: 1 / 1;
+	background-color: #998235;
+	position: relative;
+}
+.cube_long {
+	width: 120px;
+	height: 200px;
+	background-color: #0b2429;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	translate: -50% -50%;
+	transform: rotate(45deg);
+}
+.cube_short {
+	width: 120px;
+	height: 100px;
+	background-color: #fcbe5c;
+	position: absolute;
+	top: 700px;
+	left: 60%;
+	translate: -50% -50%;
+	transform: rotate(-45deg);
+}
