@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 100%;
+	aspect-ratio: 1 / 1;
+	background-color: #40234b;
+	position: relative;
+}
+.big_cube {
+	width: 500px;
+	height: 500px;
+	background-color: #a94ea4;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	translate: -50% -50%;
+}
+.small_cube_1 {
+	width: 150px;
+	height: 500px;
+	background-color: #40234b;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	translate: -50% -50%;
+	transform: rotate(90deg);
+}
+.small_cube_2 {
+	width: 150px;
+	height: 500px;
+	background-color: #40234b;
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	translate: -50% -50%;
+	transform: rotate(-45deg);
+}
+.small_cube_3 {
+}

@@ -24,7 +24,7 @@
 	height: 150px;
 	background-color: #f8b140;
 	position: absolute;
-	top: 15%;
+	top: 35%;
 	left: 50%;
 	translate: -50% -50%;
 	border-top-left-radius: 40%;
@@ -36,7 +36,7 @@
 	background-color: #f8b140;
 	position: absolute;
 	top: 50%;
-	left: 15%;
+	left: 35%;
 	translate: -50% -50%;
 	border-top-left-radius: 40%;
 	border-top-right-radius: 40%;
@@ -47,7 +47,7 @@
 	height: 150px;
 	background-color: #f8b140;
 	position: absolute;
-	top: 85%;
+	top: 65%;
 	left: 50%;
 	translate: -50% -50%;
 	border-top-left-radius: 40%;
@@ -60,7 +60,7 @@
 	background-color: #f8b140;
 	position: absolute;
 	top: 50%;
-	left: 85%;
+	left: 65%;
 	translate: -50% -50%;
 	border-top-left-radius: 40%;
 	border-top-right-radius: 40%;
