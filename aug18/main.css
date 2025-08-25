@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 100%;
+	aspect-ratio: 1 / 1;
+	background-color: #e8ad6d;
+	position: relative;
+}
+.line {
+	width: 600px;
+	height: 100px;
+	background-color: #3b240c;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	translate: -50% -50%;
+}
+.cube {
+	width: 150px;
+	height: 100px;
+	background-color: #3b240c;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	translate: -50% -50%;
+}
+.eye_1 {
+	width: 200px;
+	height: 200px;
+	border: 50px solid #3b240c;
+	border-radius: 50%;
+	position: absolute;
+	top: 54%;
+	left: 35%;
+	translate: -50% -50%;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	rotate: 225deg;
+}
+.eye_2 {
+	width: 200px;
+	height: 200px;
+	border: 50px solid #3b240c;
+	border-radius: 50%;
+	position: absolute;
+	top: 54%;
+	left: 65%;
+	translate: -50% -50%;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	rotate: 225deg;
+}
